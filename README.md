@@ -8,21 +8,21 @@ However, high-quality longer indels should generally be true. There are differen
 
 ### The task is to develop software based on Pysam to detect a raw set of specific types of insertions and deletions and then filter these to get a highly confident set.
 
-You should use the human testis data set “ob007_kinetics_diploid.bam”.  You can subsequently also test your code on the “carl_kinetics_diploid.bam” data set to see if it is different between humans and chimpanzees.
+--> *Pysam is a Python package for reading, manipulating, and writing genomics data such as SAM/BAM/CRAM and VCF/BCF files*
+
+You should use the human testis data set *“ob007_kinetics_diploid.bam”*.  You can subsequently also test your code on the *“carl_kinetics_diploid.bam”* data set to see if it is different between humans and chimpanzees.
 
 We can find it in the directory: ```/home/albacoto/TopicsInBioinformatics/data ```
 
-- The carl_kinetics_diploid.bam data file is HiFi data from a chimp testis biopsi that includes kinetics information. It is aligned to the reference genome carl_diploid.fa that was assembled from the same data
-- The ob007_kinetics_diploid.bam is a HiFi data set from a human testis biopsi and includes both kinetics information and other tags such as the number of subreads supporting the called base pair for each position. It was aligned to the ob007_diploid.fa reference genome assmbled from the same data
-
-
+- The *ob007_kinetics_diploid.bam* is a HiFi data set from a human testis biopsi and includes both kinetics information and other tags such as the number of subreads supporting the called base pair for each position. It was aligned to the ob007_diploid.fa reference genome assmbled from the same data.
+- The *carl_kinetics_diploid.bam* data file is HiFi data from a chimp testis biopsi that includes kinetics information. It is aligned to the reference genome carl_diploid.fa that was assembled from the same data.
 
 
 ### The output should be a Table with the position in the contig, quality of base pairs, and size of the event. 
 
 
 
-
+I will develop the software based on Pysam through a jupyter notebook.
 
 
 
