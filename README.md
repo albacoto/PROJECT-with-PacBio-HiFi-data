@@ -8,8 +8,7 @@ However, high-quality longer indels should generally be true. There are differen
 
 ### The task is to develop software based on Pysam to detect a raw set of specific types of insertions and deletions and then filter these to get a highly confident set.
 
-You should use the human testis data set “ob007_kinetics_diploid.bam”. 
-You can subsequently also test your code on the “carl_kinetics_diploid.bam” data set to see if it is different between humans and chimpanzees.
+You should use the human testis data set “ob007_kinetics_diploid.bam”.  You can subsequently also test your code on the “carl_kinetics_diploid.bam” data set to see if it is different between humans and chimpanzees.
 
 We can find it in the directory: ```/home/albacoto/TopicsInBioinformatics/data ```
 
