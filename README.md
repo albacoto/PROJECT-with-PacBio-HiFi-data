@@ -6,7 +6,7 @@ However, high-quality longer indels should generally be true. There are differen
 3.	Alu insertions
 4.	Transposable elements
 
-# The task is to develop software based on Pysam to detect a raw set of specific types of insertions and deletions and then filter these to get a highly confident set.
+## The task is to develop software based on Pysam to detect a raw set of specific types of insertions and deletions and then filter these to get a highly confident set.
 
 You should use the human testis data set “ob007_kinetics_diploid.bam”. 
 You can subsequently also test your code on the “carl_kinetics_diploid.bam” data set to see if it is different between humans and chimpanzees.
@@ -19,7 +19,7 @@ We can find it in the directory: ```/home/albacoto/TopicsInBioinformatics/data `
 
 
 
-# The output should be a Table with the position in the contig, quality of base pairs, and size of the event. 
+## The output should be a Table with the position in the contig, quality of base pairs, and size of the event. 
 
 
 
