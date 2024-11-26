@@ -21,6 +21,13 @@ We can find it in the directory: ```/home/albacoto/TopicsInBioinformatics/data `
 ### The output should be a Table with the position in the contig, quality of base pairs, and size of the event. 
 
 
+To use the module to read a file in BAM format, create a ```AlignmentFile``` object:
+```
+# read BAM file
+import pysam
+bam_file = pysam.AlignmentFile("/home/albacoto/TopicsInBioinformatics/data/ob007_kinetics_diploid.bam", "rb")
+```
+- The b qualifier indicates that this is a BAM file. 
 
 I will develop the software based on Pysam through a jupyter notebook.
 
